@@ -1,0 +1,259 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    color: #000000;
+    line-height: 1.6;
+    background-color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #e60012;
+    color: #fff;
+}
+
+header .logo img {
+    height: 40px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-left: 30px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #000000;
+}
+
+main {
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#banner img {
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+#chart img {
+    height: auto;
+    width: 600px;
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+#chart p,
+#banner p {
+    font-weight: 300;
+    font-size: small;
+}
+
+main h2 {
+    font-weight: 900;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+#audio {
+    height: auto;
+    display: block;
+    padding: 30px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.buy-button {
+    display: inline-block;
+    background-color: #e60012;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.buy-button:hover {
+    background-color: #000000;
+}
+
+footer {
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+#exclusives {
+    background-color: #e60012;
+    text-align: center;
+    padding: 50px 20px;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#exclusives h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #fff;
+}
+
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.image-container img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    cursor: default;
+    border: 2px solid #fff;
+    transform: none; 
+    transition: none;
+}
+
+#features {
+    padding: 20px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.feature img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.feature div {
+    flex: 1;
+}
+
+.feature h3 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.feature p {
+    margin: 0;
+    color: #666;
+    font-size: 1rem;
+}
+
+.highlight {
+    background-color: #e60012;
+    color: #fff;
+}
+
+.highlight h3,
+.highlight p {
+    color: #fff;
+}
+
+.cb-banner {
+    display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+}
+
+.cb-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    background-color: #f9f9f9;
+    padding: 20px; 
+    margin: 20px 0; 
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+}
+
+.cb-logo{
+    width: 350px;
+  height: auto;
+  margin-right: 30px; 
+  box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.657);
+}
+
+.cb-title h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #000000;
+  }
+  
+  .cb-title p {
+    margin-top: 8px;
+    font-size: 16px;
+    color: #000000;
+  }
+
+  .cb-text {
+    flex: 1;
+    max-width: 450px;
+    text-align: left;
+}
+
+.cb-text h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #000000;
+  }
+  
+  .cb-text p {
+    margin-top: 8px;
+    font-size: 16px;
+    color: #000000;
+  }
+
+.cb-img {
+    flex-shrink: 0;
+    width: 300px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.428);
+} 
